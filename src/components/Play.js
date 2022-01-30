@@ -11,6 +11,16 @@ const Play = ({ setMyChoice }) => {
     <div className="play">
       <img src={Triangle} alt="" className="pentagon" />
       <div className="items">
+      <div className="items1">
+        <Link to="/game">
+          <div
+            data-id="rock"
+            onClick={setChoice}
+            className="icon icon--rock"
+          ></div>
+        </Link>
+      </div>
+      <div className="items2">
         <Link to="/game">
           <div
             data-id="paper"
@@ -25,13 +35,9 @@ const Play = ({ setMyChoice }) => {
             className="icon icon--scissors"
           ></div>
         </Link>
-        <Link to="/game">
-          <div
-            data-id="rock"
-            onClick={setChoice}
-            className="icon icon--rock"
-          ></div>
-        </Link>
+
+      </div>
+      <div className="items3">
         <Link to="/game">
           <div
             data-id="lizard"
@@ -46,6 +52,7 @@ const Play = ({ setMyChoice }) => {
             className="icon icon--spock"
           ></div>
         </Link>
+      </div>
       </div>
     </div>
   );

@@ -13,10 +13,25 @@
         align-self: center;
         margin-top: 4.375rem;
     }
-
     .items{
         display: flex;
-        justify-content: center;
+        flex-direction: column;
+    }
+    .items1{
+        margin: 0rem 38rem 4rem 29rem;
+        // display: flex;
+        justify-content: space-between;
+
+    }
+    .items3{
+        margin: 0px 38rem 6rem 29rem;
+        // display: flex;
+        justify-content: space-between;   
+    }
+    .items2{
+        margin: 0rem 38rem 4rem 29rem;
+        // display: flex;
+        justify-content: space-between;
 
         .icon{
             height: 160px;
